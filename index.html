@@ -1,138 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Últimas Postagens do Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 600px;
-            margin: 20px auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            text-align: center;
-            padding-bottom: 20px;
-        }
-
-        .header h1 {
-            color: #333333;
-        }
-
-        .post {
-            border-bottom: 1px solid #dddddd;
-            padding: 10px 0;
-            overflow: hidden;
-        }
-
-        .post:last-child {
-            border-bottom: none;
-        }
-
-        .post img {
-            float: left;
-            width: 120px;
-            height: auto;
-            margin-right: 15px;
-            border-radius: 5px;
-        }
-
-        .post h2 {
-            font-size: 18px;
-            color: #333333;
-            margin: 0 0 10px 0;
-        }
-
-        .post p {
-            font-size: 14px;
-            color: #666666;
-            margin: 5px 0;
-        }
-
-        .post a {
-            display: inline-block;
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-
-        .post a:hover {
-            background-color: #0056b3;
-        }
-
-        .footer {
-            text-align: center;
-            padding-top: 20px;
-        }
-
-        .footer p {
-            font-size: 12px;
-            color: #999999;
-        }
-    </style>
+    <title>Lista de Postagens do Blog</title>
 </head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+    <table align="center" width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-collapse: collapse; border: 1px solid #dddddd;">
+        <tr>
+            <td align="center" style="padding: 20px; background-color: #0073e6; color: #ffffff;">
+                <h1 style="margin: 0; font-size: 24px;">Últimas Postagens do Blog</h1>
+            </td>
+        </tr>
 
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Últimas Postagens do Blog</h1>
-        </div>
+        <!-- Postagem 1 -->
+        <tr>
+            <td style="padding: 20px; border-bottom: 1px solid #dddddd;">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="150">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxBuCoZFyacQQG7QIUMD5AE5uLEuiMJQxxd3cgH6oXSyMWUo5XNig2u-NlZbBG78WVqW_WYiWVmTuLl3OwAjwc3TrCUa02anL9rc1jsGd2kOBjQ6XpQ7S77MRrX1b4p90fihnNvmfj5U55UHw4hT7XkVz9YeJLAv-R-jgBvopRHCaeri69i-RSnLIt/w640-h360-rw/castlevania-dominus-collection.png" alt="castlevania-dominus-collection" style="width: 150px; height: auto; border-radius: 8px;">
+                        </td>
+                        <td style="padding-left: 20px;">
+                            <h2 style="margin: 0; font-size: 20px; color: #0073e6;">Castlevania: Dominus Collection</h2>
+                            <p style="margin: 10px 0; color: #555555; font-size: 14px;">Data: 28 de Agosto, 2024</p>
+                            <p style="margin: 0 0 10px; color: #555555; font-size: 16px;">Boas notícias para os fãs de uma das sagas mais queridas do mundo dos games: Castlevania: Dominus
+                                Collection, coletânea com quatro jogos clássicos da franquia, foi anunciada e já está disponível.</p>
+                            <a href="https://www.nintendoblast.com.br/2024/08/castlevania-dominus-collection-switch-anuncio-trailer.html" style="color: #ffffff; text-decoration: none;">
+                                <table cellpadding="0" cellspacing="0" style="background-color: #0073e6; padding: 10px 20px; border-radius: 5px;">
+                                    <tr>
+                                        <td style="color: #ffffff; font-size: 16px;">Leia Mais</td>
+                                    </tr>
+                                </table>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
 
-        <div class="post">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxBuCoZFyacQQG7QIUMD5AE5uLEuiMJQxxd3cgH6oXSyMWUo5XNig2u-NlZbBG78WVqW_WYiWVmTuLl3OwAjwc3TrCUa02anL9rc1jsGd2kOBjQ6XpQ7S77MRrX1b4p90fihnNvmfj5U55UHw4hT7XkVz9YeJLAv-R-jgBvopRHCaeri69i-RSnLIt/w640-h360-rw/castlevania-dominus-collection.png"
-                alt="Castlevania Colletion">
-            <h2>Castlevania: Dominus Collection</h2>
-            <p>Boas notícias para os fãs de uma das sagas mais queridas do mundo dos games: Castlevania: Dominus
-                Collection, coletânea com quatro jogos clássicos da franquia, foi anunciada e já está disponível
-            </p>
-            <a
-                href="https://www.nintendoblast.com.br/2024/08/castlevania-dominus-collection-switch-anuncio-trailer.html">Leia
-                Mais</a>
-        </div>
+        <!-- Postagem 2 -->
+        <tr>
+            <td style="padding: 20px; border-bottom: 1px solid #dddddd;">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="150">
+                            <img src="https://i.ytimg.com/vi/M3UPoTalv4A/maxresdefault.jpg" alt="Epic Mickey" style="width: 150px; height: auto; border-radius: 8px;">
+                        </td>
+                        <td style="padding-left: 20px;">
+                            <h2 style="margin: 0; font-size: 20px; color: #0073e6;">Epic Mickey: Rebrushed</h2>
+                            <p style="margin: 10px 0; color: #555555; font-size: 14px;">Data: 28 de Agosto, 2024</p>
+                            <p style="margin: 0 0 10px; color: #555555; font-size: 16px;">O jogo é um remake do plataforma 3D lançado em 2010 para Wii. Agora, é possível conferir de antemão como
+                                ficou o resultado da nova camada de tinta que o camundongo mais famoso do mundo recebeu.</p>
+                            <a href="https://www.nintendoblast.com.br/2024/08/disney-epic-mickey-rebrushed-recebe-novo-trailer-para-demo-ja-disponivel.html" style="color: #ffffff; text-decoration: none;">
+                                <table cellpadding="0" cellspacing="0" style="background-color: #0073e6; padding: 10px 20px; border-radius: 5px;">
+                                    <tr>
+                                        <td style="color: #ffffff; font-size: 16px;">Leia Mais</td>
+                                    </tr>
+                                </table>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
 
-        <div class="post">
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202406/0523/21f984cb83d8a344857ee7682c6401cc9ff583a014fb6f1c.jpg"
-                alt="Epic Mickey">
-            <h2>Epic Mickey: Rebrushed</h2>
-            <p>O jogo é um remake do plataforma 3D lançado em 2010 para Wii. Agora, é possível conferir de antemão como
-                ficou o resultado da nova camada de tinta que o camundongo mais famoso do mundo recebeu.</p>
-            <a
-                href="https://www.nintendoblast.com.br/2024/08/disney-epic-mickey-rebrushed-recebe-novo-trailer-para-demo-ja-disponivel.html">Leia
-                Mais</a>
-        </div>
+        <!-- Postagem 3 -->
+        <tr>
+            <td style="padding: 20px;">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="150">
+                            <img src="https://psxbrasil.com.br/wp-content/uploads/2024/08/GcuFD3VcCRwhd.jpg" alt="Capcom Fighting Collection" style="width: 150px; height: auto; border-radius: 8px;">
+                        </td>
+                        <td style="padding-left: 20px;">
+                            <h2 style="margin: 0; font-size: 20px; color: #0073e6;">Capcom Fighting Collection</h2>
+                            <p style="margin: 10px 0; color: #555555; font-size: 14px;">Data: 28 de Agosto, 2024</p>
+                            <p style="margin: 0 0 10px; color: #555555; font-size: 16px;">A nova coletânea reúne oito jogos de luta clássicos da empresa e estará disponível no Switch em 2025.
+                                Todos os títulos terão opção online com rollback netcode para o multiplayer.</p>
+                            <a href="https://www.nintendoblast.com.br/2024/08/capcom-fighting-collection-2-e-anunciado-para-switch.html" style="color: #ffffff; text-decoration: none;">
+                                <table cellpadding="0" cellspacing="0" style="background-color: #0073e6; padding: 10px 20px; border-radius: 5px;">
+                                    <tr>
+                                        <td style="color: #ffffff; font-size: 16px;">Leia Mais</td>
+                                    </tr>
+                                </table>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
 
-        <div class="post">
-            <img src="https://psxbrasil.com.br/wp-content/uploads/2024/08/GcuFD3VcCRwhd.jpg"
-                alt="Capcom Fighting Collection 2">
-            <h2>Capcom Fighting Collection 2</h2>
-            <p>A nova coletânea reúne oito jogos de luta clássicos da empresa e estará disponível no Switch em 2025.
-                Todos os títulos terão opção online com rollback netcode para o multiplayer.</p>
-            <a
-                href="https://www.nintendoblast.com.br/2024/08/capcom-fighting-collection-2-e-anunciado-para-switch.html">Leia
-                Mais</a>
-        </div>
-
-        <div class="footer">
-            <p><a href="https://link-para-cancelar-inscricao.com" class="unsubscribe">Cancelar inscrição</a></p>
-            <p>&copy; 2024 Blog Renato Games. Todos os direitos reservados.</p>
-        </div>
-    </div>
+        <!-- Rodapé -->
+        <tr>
+            <td align="center" style="padding: 20px; background-color: #f4f4f4; color: #555555; font-size: 14px;">
+                <p style="margin: 0;">Você está recebendo este e-mail porque se inscreveu no nosso blog. <a href="https://example.com/unsubscribe" style="color: #0073e6; text-decoration: none;">Cancelar inscrição</a>.</p>
+            </td>
+        </tr>
+    </table>
 </body>
-
 </html>
